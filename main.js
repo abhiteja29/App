@@ -1,5 +1,4 @@
-function calc(){
-  const word = document.getElementById("word").value
-  const length = parseInt(word)*parseInt(length)
-  document.getElementById("length").innerHTML=length
+function len(){
+  const word = document.getElementById("str").value
+  document.getElementById("result").innerHTML=word.length
 }
